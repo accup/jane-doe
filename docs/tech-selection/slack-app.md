@@ -83,15 +83,10 @@ Slack Bolt for JavaScript は：
 - 日本語ドキュメントが充実
 - 2024-2025年も活発に使用されている実績
 
-参考:
-- [Bolt フレームワークを使って Slack Bot を作ろう | Slack](https://api.slack.com/lang/ja-jp/hello-world-bolt)
-- [SlackのBoltを使った開発体験が良かった話 - Sansan Tech Blog](https://buildersbox.corp-sansan.com/entry/2024/12/13/000000)
+参考: [Bolt フレームワークを使って Slack Bot を作ろう | Slack](https://api.slack.com/lang/ja-jp/hello-world-bolt)
 
 ### 4. 実装事例の存在
-Slack × Claude × MCP の統合事例が複数存在し、実装の参考にできます：
-- [Claude×Slack連携で生成AIが進化！](https://note.com/masaland/n/nf7a65e005283)
-- [リモートMCPサーバーで実現するSlack×AI連携 - RAKSUL TechBlog](https://techblog.raksul.com/entry/2025/05/16/174604)
-- [Slack integration for Claude Code using MCP](https://github.com/engineers-hub-ltd-in-house-project/slack-claude-code-integration)
+Slack × Claude × MCP の統合事例が複数存在し、実装の参考にできます（参考資料セクション参照）
 
 ### 5. 型安全性による品質確保
 TypeScript の型システムにより：
@@ -110,21 +105,30 @@ TypeScript の型システムにより：
 
 ## 参考資料
 
-### Slack Bolt
-- [Bolt フレームワークを使って Slack Bot を作ろう | Slack](https://api.slack.com/lang/ja-jp/hello-world-bolt)
-- [Bolt for JavaScript interface and configuration reference | Slack Developer Docs](https://docs.slack.dev/tools/bolt-js/reference/)
-- [小規模から始めるSlack Boltでのアプリケーション開発 - MicroAd Developers Blog](https://developers.microad.co.jp/entry/2025/09/26/180000)
+### 公式ドキュメント
 
-### MCP
-- [Model Context Protocol](https://modelcontextprotocol.io/docs/develop/build-server)
-- [TypeScript SDK - Model Context Protocol](https://github.com/modelcontextprotocol/typescript-sdk)
-- [How to Build a Custom MCP Server with TypeScript](https://www.freecodecamp.org/news/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/)
+技術選定と実装の第一情報源として参照。
 
-### 統合事例
-- [Claude×Slack連携で生成AIが進化！](https://note.com/masaland/n/nf7a65e005283)
-- [SlackとClaudeのMCP連携：設定から実用例まで](https://www.hatohato.jp/ai/article/20250515_slack_claude_mcp_setup.php)
-- [リモートMCPサーバーで実現するSlack×AI連携 - RAKSUL TechBlog](https://techblog.raksul.com/entry/2025/05/16/174604)
-- [Slack integration for Claude Code using MCP](https://github.com/engineers-hub-ltd-in-house-project/slack-claude-code-integration)
+#### Slack
+- [Bolt フレームワークを使って Slack Bot を作ろう | Slack](https://api.slack.com/lang/ja-jp/hello-world-bolt) - 公式の入門ガイド（日本語）
+- [Bolt for JavaScript interface and configuration reference | Slack Developer Docs](https://docs.slack.dev/tools/bolt-js/reference/) - API リファレンス
+
+#### Model Context Protocol (MCP)
+- [Model Context Protocol - Build an MCP server](https://modelcontextprotocol.io/docs/develop/build-server) - MCP サーバー開発の公式ガイド
+- [TypeScript SDK - Model Context Protocol](https://github.com/modelcontextprotocol/typescript-sdk) - 公式 TypeScript SDK のリポジトリ
+
+### チュートリアル・ガイド
+
+公式ドキュメントを補完する学習リソース。
+
+- [How to Build a Custom MCP Server with TypeScript – freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/) - TypeScript での MCP サーバー構築の詳細なチュートリアル
+
+### 実装事例
+
+実際のプロダクション環境での実装例とベストプラクティス。
+
+- [リモートMCPサーバーで実現するSlack×AI連携 - RAKSUL TechBlog](https://techblog.raksul.com/entry/2025/05/16/174604) - 企業での実装事例と設計判断
+- [Slack integration for Claude Code using MCP](https://github.com/engineers-hub-ltd-in-house-project/slack-claude-code-integration) - オープンソースの実装例
 
 ---
 
