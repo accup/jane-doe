@@ -128,7 +128,6 @@ TypeScript の型システムにより：
 実際のプロダクション環境での実装例とベストプラクティス。
 
 - [リモートMCPサーバーで実現するSlack×AI連携 - RAKSUL TechBlog](https://techblog.raksul.com/entry/2025/05/16/174604) - 企業での実装事例と設計判断
-- [Slack integration for Claude Code using MCP](https://github.com/engineers-hub-ltd-in-house-project/slack-claude-code-integration) - オープンソースの実装例
 
 ---
 
